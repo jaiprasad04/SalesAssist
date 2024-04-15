@@ -1,0 +1,40 @@
+.category-item {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.category-item:hover {
+    background-color: #232322;
+}
+
+.selected {
+    background-color: #232322;
+}
+
+.category-list-img {
+    width: 40px;
+    height: 40px;
+}
+
+@media  screen and (min-width: 768px) {
+    .category-list-img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.bag-name {
+    color: #e5dfd9;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8px;
+}
+
+@media  screen and (min-width: 768px) {
+    .bag-name {
+        font-size: 13px;
+        margin-top: 12px;
+    }
+}
